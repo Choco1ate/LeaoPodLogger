@@ -1,0 +1,1085 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0258519887C7677C735B67B057DC4363 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 428745D41CF4B29138396AA3B62BA70E /* XCTestSuite+QuickTestSuiteBuilder.m */; };
+		0371FCCE0E54463A3DAA9A5182870191 /* Pods-LeaoPodLogger_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 290B8D80E503DA406D6116C1114C652D /* Pods-LeaoPodLogger_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090633CE456C1FA8409CDAB28677CEB0 /* QuickSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = FB0B534CA3739892DB1F53E6B69D3863 /* QuickSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A10F1314015F707EBD8557FA1DC1003 /* QuickSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA9C9CCC235A4569A28C265E67C952D /* QuickSpec.m */; };
+		0A430DD7E962A9913385832E3F96F48D /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618B3A0C3B0FE993D4FD56E82C019EE9 /* Filter.swift */; };
+		0B3EED9DC07A09EBF68C02D14B98E014 /* Quick-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F1AECA053C17FF2ADDD3A3313CAE759 /* Quick-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B7BD24FDF2877B7DAB8E15AB42ABDB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */; };
+		1D12D3BB1FB2542E6ED6887470BEA80B /* Closures.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF618E31945B8003AC4A14A642FD5A5 /* Closures.swift */; };
+		2CA9D163C5DC579425E87F8915E1E165 /* Pods-LeaoPodLogger_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39649B9FE8FD632C3C7305F931415BE6 /* Pods-LeaoPodLogger_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		322BFEEB425DC43C9A01CB8653994984 /* LeaoPodLogger-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CAEC67882FD29A4B5B22FBBAF0E9F712 /* LeaoPodLogger-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36C02EC8E1C1C4308D1A4EE313746405 /* QCKDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = C0E82A90817FDD02FC0832B23A69BE79 /* QCKDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A7BAC3525A87710E8B88E2343A87C2A /* ExampleGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FE3484C7111676905F8FEE4699CE80 /* ExampleGroup.swift */; };
+		48C10B9A539A0C5ABB40C060BCFA6A5D /* QuickTestObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34E6DA637E9A02412ED222F533CF94BB /* QuickTestObservation.swift */; };
+		4AB3E5CA752435B21E7EBC018EE8CE58 /* ExampleMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DB4BCACE1BA32F1381AC227DD71B815 /* ExampleMetadata.swift */; };
+		4C3EC6F293171B624B88EDCCF5E30114 /* ExampleHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A13D51DEFFA654B42CEB6AA6373027 /* ExampleHooks.swift */; };
+		536B70B43A9AAFA6C724977674A47483 /* QuickConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22CCEEF7F33838B57CB8C153EBAFAF5 /* QuickConfiguration.swift */; };
+		586F823C4C048A55335C1952B4B1BF51 /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74C886B57576C4CA9E67AD60387E5BE1 /* Example.swift */; };
+		5B70B7A48D33851645A970DA8AD85CD6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		5DE358B668148D244DB531CE03A81D84 /* Quick.h in Headers */ = {isa = PBXBuildFile; fileRef = 498834AC758F6D6E5519D445D58C83C6 /* Quick.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61B965468C371CBE5112C04DA810254F /* Pods-LeaoPodLogger_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E04FFEC75277051FC3DC8589414A9 /* Pods-LeaoPodLogger_Example-dummy.m */; };
+		6C60C7651EE9D59C150ECD60919024CB /* Callsite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5054DD5224D7396273944FAE182206B0 /* Callsite.swift */; };
+		6C935952963B7B9356A6138BE6162667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		7B6287E97AC06CC99ED2D5F79564073D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		81DD05C33210EF2EBEF83D9CBA444354 /* SuiteHooks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F55B5902E78A6235F56AC8DEF27993 /* SuiteHooks.swift */; };
+		81F4D2C9322FCC3FEA6B4C42B2007F21 /* NSBundle+CurrentTestBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BC12DE07B65D732EAC225A7F785BCAA /* NSBundle+CurrentTestBundle.swift */; };
+		8362B3BDF98DA5B10DE703225C64A6E7 /* ErrorUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3F6793F52D9B4FC8A9E6FCFEE8E14B /* ErrorUtility.swift */; };
+		839C1F7C9259BCE4D28974F8E4F62F7B /* LeaoPodLogger-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1FA4056587DABFC63C7389970197ED /* LeaoPodLogger-dummy.m */; };
+		83EFFB5E22BA60D2DC189884A57606FD /* QCKDSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D98B78F893D0FDD8D98D4A9405BC30C /* QCKDSL.m */; };
+		86A686DD3FD09535DC9388229C8E51A4 /* World.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F38C63AC57F0DA72A3D6B8E12EB036 /* World.swift */; };
+		8F8D2854A80356B63C5BAEB18DBBB696 /* QuickSpecBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A4DC99E273AD25E218020EDDC20052 /* QuickSpecBase.m */; };
+		91096B584690A4AB2ADE756319D2A474 /* World+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A0C0C5EC7F7BC6EA4122EC0E85A0E94 /* World+DSL.swift */; };
+		915EA7F48607942BA78B96B434BE3E34 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4299DC621FC13650B8BAC1B024138 /* Behavior.swift */; };
+		961ADDC49C215FB5C58583C44BF6D8F8 /* String+C99ExtendedIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC67E65F38CF62854180F7AFED1D03B /* String+C99ExtendedIdentifier.swift */; };
+		9E81C56C891B65383D18A5BCF4351B13 /* LeaoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC432C1D839FCA81E5D75281DC9CF40 /* LeaoTest.swift */; };
+		AAB067D093E2581A2D75134FFC7856E4 /* Quick-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB42BF8338776CBF66E47014846B2BB /* Quick-dummy.m */; };
+		AE86CF4927C9231C819D1786786EBC60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */; };
+		B4C8F9C94051EF2F9954FDAA9467C707 /* QuickTestSuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6634D355DDA520AAFA44332FC4891870 /* QuickTestSuite.swift */; };
+		BDF7308C23E4F0BB1AC479C576A227F0 /* QuickSelectedTestSuiteBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD24C79F174EAE0A7854EB1563CD4B /* QuickSelectedTestSuiteBuilder.swift */; };
+		BF97BC465F7FB6C389C9D9B9378674CC /* URL+FileName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02712F3D99BA869EAE357923F2E27AFF /* URL+FileName.swift */; };
+		CB56A9AD610F6717133AA1110C1AAA94 /* QuickConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FDAE1BC4128C1882F78B37B12C9FEF /* QuickConfiguration.m */; };
+		DDDD8CFFDE47FC8F058EB1D19179A89E /* QuickSpecBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 987D53754416E2893AEB06FD90E8DAC7 /* QuickSpecBase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E62F456D7E3734397A48C79381A9009A /* QuickConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A4C82E43723475AFFB25C0A846AFB8 /* QuickConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6E71178009EC496792C824BEE308527 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0DC4793A8493D96210ECB104EDA87E /* Configuration.swift */; };
+		EAF96483848B6E2554CBB684AEDB8550 /* DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252F5E815BD42644A26305B5680FCB1 /* DSL.swift */; };
+		F0AF75FB15E4E11F069B28EAF2FC9CBE /* Pods-LeaoPodLogger_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FFAB288CD54EAAA07DB60A27ECDEDAF1 /* Pods-LeaoPodLogger_Tests-dummy.m */; };
+		F2AD738671623FFDE4277046C7784188 /* HooksPhase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C288C88D9F6F1EB5BA88D9477AE86D2 /* HooksPhase.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DDA42EF89954241103F50547C1DD408 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79D79809F700CE5AEB8542C24E59EA4A;
+			remoteInfo = "Pods-LeaoPodLogger_Example";
+		};
+		94D9F9FC15087B868A5C9A10AC470DD9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C82891EAB7293DBEE916B21F57E8474D;
+			remoteInfo = Quick;
+		};
+		BAEB923562325542F98BAFA63CA410CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74704AF6282636E42405AF1BB0367DC4;
+			remoteInfo = LeaoPodLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		019B050B373295A736DACDEEDE65DCC1 /* LeaoPodLogger */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LeaoPodLogger; path = LeaoPodLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		02712F3D99BA869EAE357923F2E27AFF /* URL+FileName.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+FileName.swift"; path = "Sources/Quick/URL+FileName.swift"; sourceTree = "<group>"; };
+		05F38C63AC57F0DA72A3D6B8E12EB036 /* World.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = World.swift; path = Sources/Quick/World.swift; sourceTree = "<group>"; };
+		083A28631B0422ECC86061CA2FFA8C15 /* Pods-LeaoPodLogger_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeaoPodLogger_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D1FA4056587DABFC63C7389970197ED /* LeaoPodLogger-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LeaoPodLogger-dummy.m"; sourceTree = "<group>"; };
+		0D631E9908483F9525A6B3F36F16CC61 /* Quick */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Quick; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1138EC293C03363C5DF3EFAB884C5803 /* LeaoPodLogger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeaoPodLogger.debug.xcconfig; sourceTree = "<group>"; };
+		14FDAE1BC4128C1882F78B37B12C9FEF /* QuickConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickConfiguration.m; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.m; sourceTree = "<group>"; };
+		1BC12DE07B65D732EAC225A7F785BCAA /* NSBundle+CurrentTestBundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSBundle+CurrentTestBundle.swift"; path = "Sources/Quick/NSBundle+CurrentTestBundle.swift"; sourceTree = "<group>"; };
+		1DEBC608386CA0B582D8946C48AC1288 /* Pods-LeaoPodLogger_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeaoPodLogger_Tests.modulemap"; sourceTree = "<group>"; };
+		1F1AECA053C17FF2ADDD3A3313CAE759 /* Quick-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-umbrella.h"; sourceTree = "<group>"; };
+		2161B2B370867910968FF30D072AF1C9 /* Quick.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.release.xcconfig; sourceTree = "<group>"; };
+		2451E1C6AF568275758E7F1442C5FE34 /* Pods-LeaoPodLogger_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LeaoPodLogger_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		26A4DC99E273AD25E218020EDDC20052 /* QuickSpecBase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpecBase.m; path = Sources/QuickObjCRuntime/QuickSpecBase.m; sourceTree = "<group>"; };
+		290B8D80E503DA406D6116C1114C652D /* Pods-LeaoPodLogger_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeaoPodLogger_Tests-umbrella.h"; sourceTree = "<group>"; };
+		2DC67E65F38CF62854180F7AFED1D03B /* String+C99ExtendedIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+C99ExtendedIdentifier.swift"; path = "Sources/Quick/String+C99ExtendedIdentifier.swift"; sourceTree = "<group>"; };
+		34E6DA637E9A02412ED222F533CF94BB /* QuickTestObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestObservation.swift; path = Sources/Quick/QuickTestObservation.swift; sourceTree = "<group>"; };
+		39649B9FE8FD632C3C7305F931415BE6 /* Pods-LeaoPodLogger_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LeaoPodLogger_Example-umbrella.h"; sourceTree = "<group>"; };
+		3A0C0C5EC7F7BC6EA4122EC0E85A0E94 /* World+DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "World+DSL.swift"; path = "Sources/Quick/DSL/World+DSL.swift"; sourceTree = "<group>"; };
+		3C039B581AF9FEF120E44C852F2A804B /* LeaoPodLogger.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LeaoPodLogger.modulemap; sourceTree = "<group>"; };
+		3C0DC4793A8493D96210ECB104EDA87E /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Sources/Quick/Configuration/Configuration.swift; sourceTree = "<group>"; };
+		3CBBC764B66C6E6F586FB026BB122D53 /* Pods-LeaoPodLogger_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LeaoPodLogger_Example.modulemap"; sourceTree = "<group>"; };
+		40A4C82E43723475AFFB25C0A846AFB8 /* QuickConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickConfiguration.h; path = Sources/QuickObjectiveC/Configuration/QuickConfiguration.h; sourceTree = "<group>"; };
+		428745D41CF4B29138396AA3B62BA70E /* XCTestSuite+QuickTestSuiteBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "XCTestSuite+QuickTestSuiteBuilder.m"; path = "Sources/QuickObjectiveC/XCTestSuite+QuickTestSuiteBuilder.m"; sourceTree = "<group>"; };
+		498834AC758F6D6E5519D445D58C83C6 /* Quick.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quick.h; path = Sources/QuickObjectiveC/Quick.h; sourceTree = "<group>"; };
+		4BBBF4CCB7034705D6FAA93D724D03A3 /* Pods-LeaoPodLogger_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeaoPodLogger_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5054DD5224D7396273944FAE182206B0 /* Callsite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Callsite.swift; path = Sources/Quick/Callsite.swift; sourceTree = "<group>"; };
+		5252F5E815BD42644A26305B5680FCB1 /* DSL.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DSL.swift; path = Sources/Quick/DSL/DSL.swift; sourceTree = "<group>"; };
+		5C6E04FFEC75277051FC3DC8589414A9 /* Pods-LeaoPodLogger_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeaoPodLogger_Example-dummy.m"; sourceTree = "<group>"; };
+		5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		60913ADA9CB9BF8D4F2179D26EF4BA7F /* Pods-LeaoPodLogger_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeaoPodLogger_Example-Info.plist"; sourceTree = "<group>"; };
+		618B3A0C3B0FE993D4FD56E82C019EE9 /* Filter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Filter.swift; path = Sources/Quick/Filter.swift; sourceTree = "<group>"; };
+		61F55B5902E78A6235F56AC8DEF27993 /* SuiteHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuiteHooks.swift; path = Sources/Quick/Hooks/SuiteHooks.swift; sourceTree = "<group>"; };
+		65B9D630DF902DE4F1753A4D41048ECC /* Pods-LeaoPodLogger_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeaoPodLogger_Tests-Info.plist"; sourceTree = "<group>"; };
+		6634D355DDA520AAFA44332FC4891870 /* QuickTestSuite.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickTestSuite.swift; path = Sources/Quick/QuickTestSuite.swift; sourceTree = "<group>"; };
+		6A40DEDB36B39280D692E57FBC248D00 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		6C2A8CB5E80AFFE6F00106C428732B1C /* Pods-LeaoPodLogger_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeaoPodLogger_Example-frameworks.sh"; sourceTree = "<group>"; };
+		6EA9C9CCC235A4569A28C265E67C952D /* QuickSpec.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QuickSpec.m; path = Sources/QuickObjectiveC/QuickSpec.m; sourceTree = "<group>"; };
+		6EE55AB0CDD8329722B09A607243C64E /* LeaoPodLogger-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeaoPodLogger-prefix.pch"; sourceTree = "<group>"; };
+		74C886B57576C4CA9E67AD60387E5BE1 /* Example.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Example.swift; path = Sources/Quick/Example.swift; sourceTree = "<group>"; };
+		811EC14CF8C5AC23F64A1F24618486C6 /* Quick.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Quick.modulemap; sourceTree = "<group>"; };
+		84A13D51DEFFA654B42CEB6AA6373027 /* ExampleHooks.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleHooks.swift; path = Sources/Quick/Hooks/ExampleHooks.swift; sourceTree = "<group>"; };
+		861C9D5E343D5E43DC30B3FB61166B72 /* LeaoPodLogger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LeaoPodLogger.release.xcconfig; sourceTree = "<group>"; };
+		8998916D8D5194BE1DB8688C89603EB9 /* Pods-LeaoPodLogger_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeaoPodLogger_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		8BD7DB894385C55890EAF5E6EF44B3B2 /* Pods-LeaoPodLogger_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeaoPodLogger_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9310AF4E45060434409FE244E1C20F06 /* Pods-LeaoPodLogger_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeaoPodLogger_Example.release.xcconfig"; sourceTree = "<group>"; };
+		987D53754416E2893AEB06FD90E8DAC7 /* QuickSpecBase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpecBase.h; path = Sources/QuickObjCRuntime/include/QuickSpecBase.h; sourceTree = "<group>"; };
+		9B2FACDDF66BC40BF1D3EEEABFF89EB3 /* Pods-LeaoPodLogger_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LeaoPodLogger_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9C288C88D9F6F1EB5BA88D9477AE86D2 /* HooksPhase.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HooksPhase.swift; path = Sources/Quick/Hooks/HooksPhase.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D98B78F893D0FDD8D98D4A9405BC30C /* QCKDSL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCKDSL.m; path = Sources/QuickObjectiveC/DSL/QCKDSL.m; sourceTree = "<group>"; };
+		9DB4BCACE1BA32F1381AC227DD71B815 /* ExampleMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleMetadata.swift; path = Sources/Quick/ExampleMetadata.swift; sourceTree = "<group>"; };
+		A7FE3484C7111676905F8FEE4699CE80 /* ExampleGroup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExampleGroup.swift; path = Sources/Quick/ExampleGroup.swift; sourceTree = "<group>"; };
+		ABD2423718A078F24C5D49D0FA8EC6E5 /* Pods-LeaoPodLogger_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LeaoPodLogger_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		AC962E322D0970B20FC43C16A1F5CB4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AFF618E31945B8003AC4A14A642FD5A5 /* Closures.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Closures.swift; path = Sources/Quick/Hooks/Closures.swift; sourceTree = "<group>"; };
+		B4A1DDD7CF87137C060B138639A00DC1 /* Quick-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Quick-Info.plist"; sourceTree = "<group>"; };
+		B6A4299DC621FC13650B8BAC1B024138 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Quick/Behavior.swift; sourceTree = "<group>"; };
+		BC3F6793F52D9B4FC8A9E6FCFEE8E14B /* ErrorUtility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ErrorUtility.swift; path = Sources/Quick/ErrorUtility.swift; sourceTree = "<group>"; };
+		C0E82A90817FDD02FC0832B23A69BE79 /* QCKDSL.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCKDSL.h; path = Sources/QuickObjectiveC/DSL/QCKDSL.h; sourceTree = "<group>"; };
+		C27F7FA44DD831E736015973A7119CAC /* Pods-LeaoPodLogger_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeaoPodLogger_Example"; path = Pods_LeaoPodLogger_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CAEC67882FD29A4B5B22FBBAF0E9F712 /* LeaoPodLogger-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LeaoPodLogger-umbrella.h"; sourceTree = "<group>"; };
+		D8F6994A898B657336A7C206FB4E4F1D /* LeaoPodLogger-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LeaoPodLogger-Info.plist"; sourceTree = "<group>"; };
+		DFC432C1D839FCA81E5D75281DC9CF40 /* LeaoTest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LeaoTest.swift; path = LeaoPodLogger/Classes/LeaoTest.swift; sourceTree = "<group>"; };
+		E4E692722C3ED45734C63ECED7F4A3C3 /* Quick-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Quick-prefix.pch"; sourceTree = "<group>"; };
+		E4E8351F7020D056B3345EC29CEB631D /* Pods-LeaoPodLogger_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LeaoPodLogger_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E5CD24C79F174EAE0A7854EB1563CD4B /* QuickSelectedTestSuiteBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickSelectedTestSuiteBuilder.swift; path = Sources/Quick/QuickSelectedTestSuiteBuilder.swift; sourceTree = "<group>"; };
+		EDD83B390F352A427208C102F42313F8 /* LeaoPodLogger.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LeaoPodLogger.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		F22CCEEF7F33838B57CB8C153EBAFAF5 /* QuickConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QuickConfiguration.swift; path = Sources/Quick/Configuration/QuickConfiguration.swift; sourceTree = "<group>"; };
+		FA67B67FDD4CD44951C53A4D479222E0 /* Quick.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Quick.debug.xcconfig; sourceTree = "<group>"; };
+		FA7A9EAC4FA68A5CF6C2123399F29B60 /* Pods-LeaoPodLogger_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-LeaoPodLogger_Tests"; path = Pods_LeaoPodLogger_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB0B534CA3739892DB1F53E6B69D3863 /* QuickSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QuickSpec.h; path = Sources/QuickObjectiveC/QuickSpec.h; sourceTree = "<group>"; };
+		FDB42BF8338776CBF66E47014846B2BB /* Quick-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Quick-dummy.m"; sourceTree = "<group>"; };
+		FFAB288CD54EAAA07DB60A27ECDEDAF1 /* Pods-LeaoPodLogger_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LeaoPodLogger_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D76E7D3445C518E263445469FF4D37F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6287E97AC06CC99ED2D5F79564073D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C9039AFF61DA7B38E5F2F0AFDEDB11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B70B7A48D33851645A970DA8AD85CD6 /* Foundation.framework in Frameworks */,
+				0B7BD24FDF2877B7DAB8E15AB42ABDB7 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		785E8B1D5ABA77C830A878D82C0D67F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE86CF4927C9231C819D1786786EBC60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5247408C948BE31AA72476548BF88AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C935952963B7B9356A6138BE6162667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		027CA893C113E1D55B00C49DF981638E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC71BC52660F4E9C4EF4EEED34C02C81 /* Quick */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				974814B39C0012DECD183BBB91B32103 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19FF9CA28A6726EEC3792C9A02D60C2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				811EC14CF8C5AC23F64A1F24618486C6 /* Quick.modulemap */,
+				FDB42BF8338776CBF66E47014846B2BB /* Quick-dummy.m */,
+				B4A1DDD7CF87137C060B138639A00DC1 /* Quick-Info.plist */,
+				E4E692722C3ED45734C63ECED7F4A3C3 /* Quick-prefix.pch */,
+				1F1AECA053C17FF2ADDD3A3313CAE759 /* Quick-umbrella.h */,
+				FA67B67FDD4CD44951C53A4D479222E0 /* Quick.debug.xcconfig */,
+				2161B2B370867910968FF30D072AF1C9 /* Quick.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Quick";
+			sourceTree = "<group>";
+		};
+		2F11300103FFA3A220E3677A9FD585BA /* Pods-LeaoPodLogger_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1DEBC608386CA0B582D8946C48AC1288 /* Pods-LeaoPodLogger_Tests.modulemap */,
+				083A28631B0422ECC86061CA2FFA8C15 /* Pods-LeaoPodLogger_Tests-acknowledgements.markdown */,
+				9B2FACDDF66BC40BF1D3EEEABFF89EB3 /* Pods-LeaoPodLogger_Tests-acknowledgements.plist */,
+				FFAB288CD54EAAA07DB60A27ECDEDAF1 /* Pods-LeaoPodLogger_Tests-dummy.m */,
+				E4E8351F7020D056B3345EC29CEB631D /* Pods-LeaoPodLogger_Tests-frameworks.sh */,
+				65B9D630DF902DE4F1753A4D41048ECC /* Pods-LeaoPodLogger_Tests-Info.plist */,
+				290B8D80E503DA406D6116C1114C652D /* Pods-LeaoPodLogger_Tests-umbrella.h */,
+				4BBBF4CCB7034705D6FAA93D724D03A3 /* Pods-LeaoPodLogger_Tests.debug.xcconfig */,
+				8BD7DB894385C55890EAF5E6EF44B3B2 /* Pods-LeaoPodLogger_Tests.release.xcconfig */,
+			);
+			name = "Pods-LeaoPodLogger_Tests";
+			path = "Target Support Files/Pods-LeaoPodLogger_Tests";
+			sourceTree = "<group>";
+		};
+		50691643925684CEB42B594C40941A18 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EDD83B390F352A427208C102F42313F8 /* LeaoPodLogger.podspec */,
+				AC962E322D0970B20FC43C16A1F5CB4A /* LICENSE */,
+				6A40DEDB36B39280D692E57FBC248D00 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		974814B39C0012DECD183BBB91B32103 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA8B94E9D3B433157168D1EECCEC11CD /* Foundation.framework */,
+				5EBC8F300895E39EA0DF6D6B2B5E6BCD /* XCTest.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9D1AC6FD1B872A5F5DE41500F5EF12FC /* Pods-LeaoPodLogger_Example */ = {
+			isa = PBXGroup;
+			children = (
+				3CBBC764B66C6E6F586FB026BB122D53 /* Pods-LeaoPodLogger_Example.modulemap */,
+				2451E1C6AF568275758E7F1442C5FE34 /* Pods-LeaoPodLogger_Example-acknowledgements.markdown */,
+				8998916D8D5194BE1DB8688C89603EB9 /* Pods-LeaoPodLogger_Example-acknowledgements.plist */,
+				5C6E04FFEC75277051FC3DC8589414A9 /* Pods-LeaoPodLogger_Example-dummy.m */,
+				6C2A8CB5E80AFFE6F00106C428732B1C /* Pods-LeaoPodLogger_Example-frameworks.sh */,
+				60913ADA9CB9BF8D4F2179D26EF4BA7F /* Pods-LeaoPodLogger_Example-Info.plist */,
+				39649B9FE8FD632C3C7305F931415BE6 /* Pods-LeaoPodLogger_Example-umbrella.h */,
+				ABD2423718A078F24C5D49D0FA8EC6E5 /* Pods-LeaoPodLogger_Example.debug.xcconfig */,
+				9310AF4E45060434409FE244E1C20F06 /* Pods-LeaoPodLogger_Example.release.xcconfig */,
+			);
+			name = "Pods-LeaoPodLogger_Example";
+			path = "Target Support Files/Pods-LeaoPodLogger_Example";
+			sourceTree = "<group>";
+		};
+		AA4BAB6D0A411375073EF5A851D97E4D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D1AC6FD1B872A5F5DE41500F5EF12FC /* Pods-LeaoPodLogger_Example */,
+				2F11300103FFA3A220E3677A9FD585BA /* Pods-LeaoPodLogger_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		AD948AC43F986FDA0D27A78D8B415F46 /* LeaoPodLogger */ = {
+			isa = PBXGroup;
+			children = (
+				DFC432C1D839FCA81E5D75281DC9CF40 /* LeaoTest.swift */,
+				50691643925684CEB42B594C40941A18 /* Pod */,
+				F6E800FBB40CE3A553F991CB3C3EAE06 /* Support Files */,
+			);
+			name = LeaoPodLogger;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CC71BC52660F4E9C4EF4EEED34C02C81 /* Quick */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4299DC621FC13650B8BAC1B024138 /* Behavior.swift */,
+				5054DD5224D7396273944FAE182206B0 /* Callsite.swift */,
+				AFF618E31945B8003AC4A14A642FD5A5 /* Closures.swift */,
+				3C0DC4793A8493D96210ECB104EDA87E /* Configuration.swift */,
+				5252F5E815BD42644A26305B5680FCB1 /* DSL.swift */,
+				BC3F6793F52D9B4FC8A9E6FCFEE8E14B /* ErrorUtility.swift */,
+				74C886B57576C4CA9E67AD60387E5BE1 /* Example.swift */,
+				A7FE3484C7111676905F8FEE4699CE80 /* ExampleGroup.swift */,
+				84A13D51DEFFA654B42CEB6AA6373027 /* ExampleHooks.swift */,
+				9DB4BCACE1BA32F1381AC227DD71B815 /* ExampleMetadata.swift */,
+				618B3A0C3B0FE993D4FD56E82C019EE9 /* Filter.swift */,
+				9C288C88D9F6F1EB5BA88D9477AE86D2 /* HooksPhase.swift */,
+				1BC12DE07B65D732EAC225A7F785BCAA /* NSBundle+CurrentTestBundle.swift */,
+				C0E82A90817FDD02FC0832B23A69BE79 /* QCKDSL.h */,
+				9D98B78F893D0FDD8D98D4A9405BC30C /* QCKDSL.m */,
+				498834AC758F6D6E5519D445D58C83C6 /* Quick.h */,
+				40A4C82E43723475AFFB25C0A846AFB8 /* QuickConfiguration.h */,
+				14FDAE1BC4128C1882F78B37B12C9FEF /* QuickConfiguration.m */,
+				F22CCEEF7F33838B57CB8C153EBAFAF5 /* QuickConfiguration.swift */,
+				E5CD24C79F174EAE0A7854EB1563CD4B /* QuickSelectedTestSuiteBuilder.swift */,
+				FB0B534CA3739892DB1F53E6B69D3863 /* QuickSpec.h */,
+				6EA9C9CCC235A4569A28C265E67C952D /* QuickSpec.m */,
+				987D53754416E2893AEB06FD90E8DAC7 /* QuickSpecBase.h */,
+				26A4DC99E273AD25E218020EDDC20052 /* QuickSpecBase.m */,
+				34E6DA637E9A02412ED222F533CF94BB /* QuickTestObservation.swift */,
+				6634D355DDA520AAFA44332FC4891870 /* QuickTestSuite.swift */,
+				2DC67E65F38CF62854180F7AFED1D03B /* String+C99ExtendedIdentifier.swift */,
+				61F55B5902E78A6235F56AC8DEF27993 /* SuiteHooks.swift */,
+				02712F3D99BA869EAE357923F2E27AFF /* URL+FileName.swift */,
+				05F38C63AC57F0DA72A3D6B8E12EB036 /* World.swift */,
+				3A0C0C5EC7F7BC6EA4122EC0E85A0E94 /* World+DSL.swift */,
+				428745D41CF4B29138396AA3B62BA70E /* XCTestSuite+QuickTestSuiteBuilder.m */,
+				19FF9CA28A6726EEC3792C9A02D60C2C /* Support Files */,
+			);
+			path = Quick;
+			sourceTree = "<group>";
+		};
+		CD13B74E4AB428094B9FC6D98FA076D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				019B050B373295A736DACDEEDE65DCC1 /* LeaoPodLogger */,
+				C27F7FA44DD831E736015973A7119CAC /* Pods-LeaoPodLogger_Example */,
+				FA7A9EAC4FA68A5CF6C2123399F29B60 /* Pods-LeaoPodLogger_Tests */,
+				0D631E9908483F9525A6B3F36F16CC61 /* Quick */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E9D13010BC48EC293395B69E822C5CD2 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				027CA893C113E1D55B00C49DF981638E /* Pods */,
+				CD13B74E4AB428094B9FC6D98FA076D6 /* Products */,
+				AA4BAB6D0A411375073EF5A851D97E4D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D13010BC48EC293395B69E822C5CD2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD948AC43F986FDA0D27A78D8B415F46 /* LeaoPodLogger */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F6E800FBB40CE3A553F991CB3C3EAE06 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C039B581AF9FEF120E44C852F2A804B /* LeaoPodLogger.modulemap */,
+				0D1FA4056587DABFC63C7389970197ED /* LeaoPodLogger-dummy.m */,
+				D8F6994A898B657336A7C206FB4E4F1D /* LeaoPodLogger-Info.plist */,
+				6EE55AB0CDD8329722B09A607243C64E /* LeaoPodLogger-prefix.pch */,
+				CAEC67882FD29A4B5B22FBBAF0E9F712 /* LeaoPodLogger-umbrella.h */,
+				1138EC293C03363C5DF3EFAB884C5803 /* LeaoPodLogger.debug.xcconfig */,
+				861C9D5E343D5E43DC30B3FB61166B72 /* LeaoPodLogger.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LeaoPodLogger";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		021C03923066C60C7F259616EF08475A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C02EC8E1C1C4308D1A4EE313746405 /* QCKDSL.h in Headers */,
+				5DE358B668148D244DB531CE03A81D84 /* Quick.h in Headers */,
+				0B3EED9DC07A09EBF68C02D14B98E014 /* Quick-umbrella.h in Headers */,
+				E62F456D7E3734397A48C79381A9009A /* QuickConfiguration.h in Headers */,
+				090633CE456C1FA8409CDAB28677CEB0 /* QuickSpec.h in Headers */,
+				DDDD8CFFDE47FC8F058EB1D19179A89E /* QuickSpecBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		366CF881B940D50CD7EC453AE4156CD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA9D163C5DC579425E87F8915E1E165 /* Pods-LeaoPodLogger_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		513497563E9CF2CAC6A1592920FFFA2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0371FCCE0E54463A3DAA9A5182870191 /* Pods-LeaoPodLogger_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7864CA30C147A838CA5F360663ABD95A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322BFEEB425DC43C9A01CB8653994984 /* LeaoPodLogger-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		74704AF6282636E42405AF1BB0367DC4 /* LeaoPodLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D245596CFC3E5C1453015FCBA3B920BB /* Build configuration list for PBXNativeTarget "LeaoPodLogger" */;
+			buildPhases = (
+				7864CA30C147A838CA5F360663ABD95A /* Headers */,
+				0EAE5428BD18AD0BCA3A1481598479F4 /* Sources */,
+				3D76E7D3445C518E263445469FF4D37F /* Frameworks */,
+				EEACC5E96052E87224B9059012113FF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeaoPodLogger;
+			productName = LeaoPodLogger;
+			productReference = 019B050B373295A736DACDEEDE65DCC1 /* LeaoPodLogger */;
+			productType = "com.apple.product-type.framework";
+		};
+		79D79809F700CE5AEB8542C24E59EA4A /* Pods-LeaoPodLogger_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0A9D78E9F9546C274E268F080C1F67 /* Build configuration list for PBXNativeTarget "Pods-LeaoPodLogger_Example" */;
+			buildPhases = (
+				366CF881B940D50CD7EC453AE4156CD2 /* Headers */,
+				324A5864B5F3C175A5265BA9C08D50C8 /* Sources */,
+				B5247408C948BE31AA72476548BF88AE /* Frameworks */,
+				6D4C3665D548A6F736C32790CD78FFE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F2097EE7F6B5C0BA861EF6B3F5B5C9 /* PBXTargetDependency */,
+			);
+			name = "Pods-LeaoPodLogger_Example";
+			productName = Pods_LeaoPodLogger_Example;
+			productReference = C27F7FA44DD831E736015973A7119CAC /* Pods-LeaoPodLogger_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		A97E6606FC627D39B89E302B8FF77C13 /* Pods-LeaoPodLogger_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9A813EAC1E9B49E278A148264470443 /* Build configuration list for PBXNativeTarget "Pods-LeaoPodLogger_Tests" */;
+			buildPhases = (
+				513497563E9CF2CAC6A1592920FFFA2D /* Headers */,
+				80BC88319ECA8B91993A66AA84DC3611 /* Sources */,
+				785E8B1D5ABA77C830A878D82C0D67F5 /* Frameworks */,
+				F6CD96422CFB87763F2DC331629AEA23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2722173E6CF1E880BEA2E98457D3578B /* PBXTargetDependency */,
+				DB66ED36DAE7A4A542CB23B15DA64523 /* PBXTargetDependency */,
+			);
+			name = "Pods-LeaoPodLogger_Tests";
+			productName = Pods_LeaoPodLogger_Tests;
+			productReference = FA7A9EAC4FA68A5CF6C2123399F29B60 /* Pods-LeaoPodLogger_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		C82891EAB7293DBEE916B21F57E8474D /* Quick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4299D26FBD6A72F1875329BD7A312BE9 /* Build configuration list for PBXNativeTarget "Quick" */;
+			buildPhases = (
+				021C03923066C60C7F259616EF08475A /* Headers */,
+				78829FBB08106D26C6F05184CD383BD1 /* Sources */,
+				56C9039AFF61DA7B38E5F2F0AFDEDB11 /* Frameworks */,
+				9A3FC14B9E7F1AF91DB0BE16A55B4779 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quick;
+			productName = Quick;
+			productReference = 0D631E9908483F9525A6B3F36F16CC61 /* Quick */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CD13B74E4AB428094B9FC6D98FA076D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74704AF6282636E42405AF1BB0367DC4 /* LeaoPodLogger */,
+				79D79809F700CE5AEB8542C24E59EA4A /* Pods-LeaoPodLogger_Example */,
+				A97E6606FC627D39B89E302B8FF77C13 /* Pods-LeaoPodLogger_Tests */,
+				C82891EAB7293DBEE916B21F57E8474D /* Quick */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6D4C3665D548A6F736C32790CD78FFE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A3FC14B9E7F1AF91DB0BE16A55B4779 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEACC5E96052E87224B9059012113FF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CD96422CFB87763F2DC331629AEA23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EAE5428BD18AD0BCA3A1481598479F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839C1F7C9259BCE4D28974F8E4F62F7B /* LeaoPodLogger-dummy.m in Sources */,
+				9E81C56C891B65383D18A5BCF4351B13 /* LeaoTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		324A5864B5F3C175A5265BA9C08D50C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B965468C371CBE5112C04DA810254F /* Pods-LeaoPodLogger_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78829FBB08106D26C6F05184CD383BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				915EA7F48607942BA78B96B434BE3E34 /* Behavior.swift in Sources */,
+				6C60C7651EE9D59C150ECD60919024CB /* Callsite.swift in Sources */,
+				1D12D3BB1FB2542E6ED6887470BEA80B /* Closures.swift in Sources */,
+				E6E71178009EC496792C824BEE308527 /* Configuration.swift in Sources */,
+				EAF96483848B6E2554CBB684AEDB8550 /* DSL.swift in Sources */,
+				8362B3BDF98DA5B10DE703225C64A6E7 /* ErrorUtility.swift in Sources */,
+				586F823C4C048A55335C1952B4B1BF51 /* Example.swift in Sources */,
+				3A7BAC3525A87710E8B88E2343A87C2A /* ExampleGroup.swift in Sources */,
+				4C3EC6F293171B624B88EDCCF5E30114 /* ExampleHooks.swift in Sources */,
+				4AB3E5CA752435B21E7EBC018EE8CE58 /* ExampleMetadata.swift in Sources */,
+				0A430DD7E962A9913385832E3F96F48D /* Filter.swift in Sources */,
+				F2AD738671623FFDE4277046C7784188 /* HooksPhase.swift in Sources */,
+				81F4D2C9322FCC3FEA6B4C42B2007F21 /* NSBundle+CurrentTestBundle.swift in Sources */,
+				83EFFB5E22BA60D2DC189884A57606FD /* QCKDSL.m in Sources */,
+				AAB067D093E2581A2D75134FFC7856E4 /* Quick-dummy.m in Sources */,
+				CB56A9AD610F6717133AA1110C1AAA94 /* QuickConfiguration.m in Sources */,
+				536B70B43A9AAFA6C724977674A47483 /* QuickConfiguration.swift in Sources */,
+				BDF7308C23E4F0BB1AC479C576A227F0 /* QuickSelectedTestSuiteBuilder.swift in Sources */,
+				0A10F1314015F707EBD8557FA1DC1003 /* QuickSpec.m in Sources */,
+				8F8D2854A80356B63C5BAEB18DBBB696 /* QuickSpecBase.m in Sources */,
+				48C10B9A539A0C5ABB40C060BCFA6A5D /* QuickTestObservation.swift in Sources */,
+				B4C8F9C94051EF2F9954FDAA9467C707 /* QuickTestSuite.swift in Sources */,
+				961ADDC49C215FB5C58583C44BF6D8F8 /* String+C99ExtendedIdentifier.swift in Sources */,
+				81DD05C33210EF2EBEF83D9CBA444354 /* SuiteHooks.swift in Sources */,
+				BF97BC465F7FB6C389C9D9B9378674CC /* URL+FileName.swift in Sources */,
+				86A686DD3FD09535DC9388229C8E51A4 /* World.swift in Sources */,
+				91096B584690A4AB2ADE756319D2A474 /* World+DSL.swift in Sources */,
+				0258519887C7677C735B67B057DC4363 /* XCTestSuite+QuickTestSuiteBuilder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BC88319ECA8B91993A66AA84DC3611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0AF75FB15E4E11F069B28EAF2FC9CBE /* Pods-LeaoPodLogger_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F2097EE7F6B5C0BA861EF6B3F5B5C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LeaoPodLogger;
+			target = 74704AF6282636E42405AF1BB0367DC4 /* LeaoPodLogger */;
+			targetProxy = BAEB923562325542F98BAFA63CA410CE /* PBXContainerItemProxy */;
+		};
+		2722173E6CF1E880BEA2E98457D3578B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LeaoPodLogger_Example";
+			target = 79D79809F700CE5AEB8542C24E59EA4A /* Pods-LeaoPodLogger_Example */;
+			targetProxy = 3DDA42EF89954241103F50547C1DD408 /* PBXContainerItemProxy */;
+		};
+		DB66ED36DAE7A4A542CB23B15DA64523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Quick;
+			target = C82891EAB7293DBEE916B21F57E8474D /* Quick */;
+			targetProxy = 94D9F9FC15087B868A5C9A10AC470DD9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E6BACC2C70FE55BC6E5618F32E44481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA67B67FDD4CD44951C53A4D479222E0 /* Quick.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C5B8CA0071860A4DE053FB747813960 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD2423718A078F24C5D49D0FA8EC6E5 /* Pods-LeaoPodLogger_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeaoPodLogger_Example/Pods-LeaoPodLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeaoPodLogger_Example/Pods-LeaoPodLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55C7EB625050A2BA78E3232B02CFC21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9310AF4E45060434409FE244E1C20F06 /* Pods-LeaoPodLogger_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeaoPodLogger_Example/Pods-LeaoPodLogger_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeaoPodLogger_Example/Pods-LeaoPodLogger_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5F93F88F043A026D47E0F035FF483A02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBBF4CCB7034705D6FAA93D724D03A3 /* Pods-LeaoPodLogger_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeaoPodLogger_Tests/Pods-LeaoPodLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeaoPodLogger_Tests/Pods-LeaoPodLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CAE262A41844E3F283F28CC474D280D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1138EC293C03363C5DF3EFAB884C5803 /* LeaoPodLogger.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeaoPodLogger/LeaoPodLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeaoPodLogger/LeaoPodLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeaoPodLogger/LeaoPodLogger.modulemap";
+				PRODUCT_MODULE_NAME = LeaoPodLogger;
+				PRODUCT_NAME = LeaoPodLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		94A6083DCE6A7C0A247B35BC48C3B546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 861C9D5E343D5E43DC30B3FB61166B72 /* LeaoPodLogger.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LeaoPodLogger/LeaoPodLogger-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LeaoPodLogger/LeaoPodLogger-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LeaoPodLogger/LeaoPodLogger.modulemap";
+				PRODUCT_MODULE_NAME = LeaoPodLogger;
+				PRODUCT_NAME = LeaoPodLogger;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96E9B8F38F5D2D34A020822D3689FCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8BD7DB894385C55890EAF5E6EF44B3B2 /* Pods-LeaoPodLogger_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LeaoPodLogger_Tests/Pods-LeaoPodLogger_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LeaoPodLogger_Tests/Pods-LeaoPodLogger_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E5A9BE122802C7B6A491955B62EC8377 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2161B2B370867910968FF30D072AF1C9 /* Quick.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Quick/Quick-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Quick/Quick-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Quick/Quick.modulemap";
+				PRODUCT_MODULE_NAME = Quick;
+				PRODUCT_NAME = Quick;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4299D26FBD6A72F1875329BD7A312BE9 /* Build configuration list for PBXNativeTarget "Quick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E6BACC2C70FE55BC6E5618F32E44481 /* Debug */,
+				E5A9BE122802C7B6A491955B62EC8377 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0A9D78E9F9546C274E268F080C1F67 /* Build configuration list for PBXNativeTarget "Pods-LeaoPodLogger_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C5B8CA0071860A4DE053FB747813960 /* Debug */,
+				55C7EB625050A2BA78E3232B02CFC21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9A813EAC1E9B49E278A148264470443 /* Build configuration list for PBXNativeTarget "Pods-LeaoPodLogger_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F93F88F043A026D47E0F035FF483A02 /* Debug */,
+				96E9B8F38F5D2D34A020822D3689FCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D245596CFC3E5C1453015FCBA3B920BB /* Build configuration list for PBXNativeTarget "LeaoPodLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CAE262A41844E3F283F28CC474D280D /* Debug */,
+				94A6083DCE6A7C0A247B35BC48C3B546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

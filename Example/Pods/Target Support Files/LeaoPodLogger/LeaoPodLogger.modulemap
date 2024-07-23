@@ -1,0 +1,6 @@
+framework module LeaoPodLogger {
+  umbrella header "LeaoPodLogger-umbrella.h"
+
+  export *
+  module * { export * }
+}

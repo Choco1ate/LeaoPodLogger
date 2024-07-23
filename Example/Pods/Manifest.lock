@@ -1,0 +1,23 @@
+PODS:
+  - LeaoPodLogger (0.1.0)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - LeaoPodLogger (from `../`)
+  - Quick (~> 2.2.0)
+
+SPEC REPOS:
+  trunk:
+    - Quick
+
+EXTERNAL SOURCES:
+  LeaoPodLogger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LeaoPodLogger: f8274d37b74df6b3d43f3d46d802c3573aabb7c6
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: a1debcb7a81ba1aa18d42f3eb14a077fab9e6ed8
+
+COCOAPODS: 1.11.3
