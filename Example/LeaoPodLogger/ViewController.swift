@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        LeaoPodLogger.Logger(true).log("123")
+        LeaoPodLogger.Logger(true).log("tag1")
     }
 
     override func didReceiveMemoryWarning() {
