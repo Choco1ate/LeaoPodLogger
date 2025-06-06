@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LeaoPodLogger'
-  s.version          = '1.0.0'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of LeaoPodLogger.'
   s.swift_version = '5.2'
 # This description is used to generate tags and improve search results.
